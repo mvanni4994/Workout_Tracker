@@ -7,8 +7,6 @@ const workoutSchema = new Schema({
     type: Date,
     default: Date.now,
 },
-exercises: [
-    {
     type: {
         type: String,
         required: "Enter targeted muscle group",
@@ -33,7 +31,7 @@ exercises: [
         type: Number,
         required: "How many sets did you do?"
     },
-    cardio: {
+    distance: {
         type: Number,
         required: "How far did you run?"
     }
