@@ -19,21 +19,16 @@ module.exports = (app) => {
         {_id: params.id}, 
         {$push:{exercises: body}}, 
         { new: true, runValidators: true }
-    ).then(Workout.findById(req.params.id))
+    ).then(Workout.findById(params.id))
     .catch(err => console.log(err))
   });
   
-  app.post("/api/workouts", (req, res) => {
-    Workout.create({})
+  app.post("/api/workouts", ({body}, res) => {
+    console.log("hello");
+    console.log(body);
+    Workout.create(body)
     .then(data=> res.json(data))
     .catch(err => console.log(err))
-  });
-
-  app.post("/api/workouts", (req, res) => {
-    Workout.create({})
-    .then((newWorkout) => {
-      res.json(newWorkout);
-    });
   });
 
   app.get("/api/workouts/range", (req, res) => {
