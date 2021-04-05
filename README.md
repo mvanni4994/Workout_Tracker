@@ -3,25 +3,27 @@
 ## Description
 A robust application that allows users to track their workouts and progress.
 
+Deployed App: https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
+
+Github Repository: https://github.com/mvanni4994
+
 ## Instructions
 Create a new workout to follow or use an already existing one.
 Enter the exercies and select "add exercies" followed by "complete".
 This will log the entry after selecting "dashboard" in the navbar.
 To continue adding workouts, or to see your overall stats from previous workouts, select "fitness tracker" in the navbar.
 
-## Technology Used
-Node.js, JavaScript, Express, MongoDB, Heroku, Mangoose, Atlas
-
 ## App Features
 
 ![image](assets/wtMain.JPG)
 ![image](assets/workoutTrackerExample.JPG)
 
-
-## URL to Deployed App
-https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
+## Technology Used
+Node.js, JavaScript, Express, MongoDB, Heroku, Mangoose, Atlas
 
 ## License
+
+MIT License
 
 Copyright (c) 2021 mvanni4994
 
