@@ -1,20 +1,20 @@
-##Workout Tracker 
+## Workout Tracker 
 
-##Description
+## Description
 A robust application that allows users to track their workouts and progress.
 
-##Technology Used
+## Technology Used
 Node.js, JavaScript, express, MongoDB, Heroku, Mangoose, Atlas
 
-##URL to Deployed App
+## URL to Deployed App
 https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
 
 
-##Deployed app link: 
+## Deployed app link: 
 https://rocky-headland-95385.herokuapp.com/?id=60501b96abef890015481d9a
 
 
-##License
+## License
 [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 mvanni4994
