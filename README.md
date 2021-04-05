@@ -3,7 +3,7 @@
 ## Description
 A robust application that allows users to track their workouts and progress.
 
-Deployed App: https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
+Deployed App: https://whispering-sea-34422.herokuapp.com/
 
 Github Repository: https://github.com/mvanni4994
 
