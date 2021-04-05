@@ -1,4 +1,4 @@
-## Workout Tracker 
+## Workout Tracker [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 A robust application that allows users to track their workouts and progress.
@@ -22,7 +22,6 @@ Node.js, JavaScript, express, MongoDB, Heroku, Mangoose, Atlas
 https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
 
 ## License
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 mvanni4994
 
