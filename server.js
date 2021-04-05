@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 // Server connects to 1. Local Mongo Database, OR 2. Atlas Link
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/whispering-sea',
+  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
