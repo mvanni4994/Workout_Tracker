@@ -10,7 +10,7 @@ This will log the entry after selecting "dashboard" in the navbar.
 To continue adding workouts, or to see your overall stats from previous workouts, select "fitness tracker" in the navbar.
 
 ## Technology Used
-Node.js, JavaScript, express, MongoDB, Heroku, Mangoose, Atlas
+Node.js, JavaScript, Express, MongoDB, Heroku, Mangoose, Atlas
 
 ## App Features
 
