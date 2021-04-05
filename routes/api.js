@@ -36,7 +36,6 @@ module.exports = (app) => {
        params.id,
       //  validates workout.js
       {$push:{exercises:body} },
-      {new: true,runValidators:true }, 
     ).then(Workout.findById(params.id))
     .catch(err => console.log(err))
   });
