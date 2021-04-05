@@ -8,34 +8,20 @@ const workoutSchema = new Schema({
     default: Date.now,
 },
 
-    type: {
-        type: String,
-        required: [true, "Enter targeted muscle group"]
-    },
+exercises: [{
     name: {
-         type: String,
-         required: [true,"Enter name of workout"]
+        type: String,
+        require: true,
+        trim: true,
     },
-    duration: {
-        type: Number,
-        required: [true, "Enter duration of workout"]
-    },
-    weight: {
-        type: Number,
-        required: [true,"Enter weight lifted"]
-    },
-    reps: {
-        type: Number,
-        required: [true,"How many reps did you do???"]
-    },
-    sets: {
-        type: Number,
-        required: [true,"How many sets did you do?"]
-    },
-    distance: {
-        type: Number,
-        required: [true,"How far did you run?"]
-    }
+    type: {type: String},
+    weight: Number,
+    sets: Number,
+    reps: Number,
+    duration: Number,
+    distance: Number
+}],
+
 },
 {
     toJSON: {
@@ -44,6 +30,9 @@ const workoutSchema = new Schema({
     }
   } 
 );
+
+//REFERENCE HERE 
+//https://mongoosejs.com/docs/2.7.x/docs/virtuals.html
 
 const workout = mongoose.model("Workout", workoutSchema);
 
