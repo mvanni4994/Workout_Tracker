@@ -3,6 +3,12 @@
 ## Description
 A robust application that allows users to track their workouts and progress.
 
+## Instructions
+Create a new workout to follow or use an already existing one.
+Enter the exercies and select "add exercies" followed by "complete".
+This will log the entry after selecting "dashboard" in the navbar.
+To continue adding workouts, or to see your overall stats from previous workouts, select "fitness tracker" in the navbar.
+
 ## Technology Used
 Node.js, JavaScript, express, MongoDB, Heroku, Mangoose, Atlas
 
