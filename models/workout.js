@@ -34,6 +34,6 @@ exercises: [{
 //REFERENCE HERE 
 //https://mongoosejs.com/docs/2.7.x/docs/virtuals.html
 
-const workout = mongoose.model("Workout", workoutSchema);
+const workout = mongoose.model("workout", workoutSchema);
 
 module.exports = workout;
