@@ -9,11 +9,6 @@ Node.js, JavaScript, express, MongoDB, Heroku, Mangoose, Atlas
 ## URL to Deployed App
 https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
 
-
-## Deployed app link: 
-https://rocky-headland-95385.herokuapp.com/?id=60501b96abef890015481d9a
-
-
 ## License
 [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
