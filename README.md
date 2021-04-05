@@ -8,8 +8,9 @@ Node.js, JavaScript, express, MongoDB, Heroku, Mangoose, Atlas
 
 ## App Features
 
-![image](assets/workoutTrackerExample.JPG)
 ![image](assets/wtMain.JPG)
+![image](assets/workoutTrackerExample.JPG)
+
 
 ## URL to Deployed App
 https://whispering-sea-34422.herokuapp.com/?id=606a964d55fc250015559afa
